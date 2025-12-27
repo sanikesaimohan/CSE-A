@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            background-color: aqua;
+            width: 600px;
+        }
+
+        .child{
+            display: inline-block;
+
+        }
+        .courses{
+            display: inline-block;
+            margin: 15px;
+        }
+
+        .courses{
+            transition: all 1s ease-in 0.1s;
+        }
+        .tutorials{
+            display: inline-block;
+             margin: 15px;
+        }
+
+        .tutorials{
+            transition: all 1s ease-in 0.1s;
+        }
+
+        .practice{
+            display: inline-block;
+            margin: 15px;
+        }
+
+        .practice{
+            transition: all 1s ease-in 0.1s;
+        }
+
+        .jobs{
+            display: inline-block;
+            margin: 15px;
+        }
+        .jobs{
+            transition: all 1s ease-in 0.1s;
+        }
+
+        .co-drop{
+            display: none;
+        }
+
+         .courses:hover .co-drop{
+            display: block;
+        }
+
+        .courses:hover{
+            background-color: bisque;
+            color: brown;
+        }
+
+        .tutorials:hover .co-drop{
+            display: block;
+        }
+
+        .tutorials:hover{
+            background-color: bisque;
+            color: brown;
+        }
+
+        .practice:hover .co-drop{
+            display: block;
+        }
+
+        .practice:hover{
+            background-color: bisque;
+            color: brown;
+        }
+
+        .jobs:hover .co-drop{
+            display: block;
+        }
+
+        .jobs:hover{
+            background-color: bisque;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="courses">
+                <h1>Courses</h1>
+                <div class="co-drop">
+                    <p>ML</p>
+                    <p>AI</p>
+                    <p>Cloud</p>
+                    <p>Devoops</p>
+                    <p>Gate</p>
+                </div>
+            </div>
+
+            <div class="tutorials">
+                <h1>Tutorials</h1>
+                <div class="co-drop">
+                    <p>Python</p>
+                    <p>Java</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JS</p>
+                </div>
+
+            </div>
+
+            <div class="practice">
+                <h1>Practice</h1>
+                <div class="co-drop">
+                    <p>Problem-solving</p>
+                    <p>Practice coding</p>
+                </div>
+                
+            </div>
+
+            <div class="jobs">
+                <h1>Jobs</h1>
+                <div class="co-drop">
+                    <p>Apply Jobs</p>
+                    <p>Post jobs</p>
+                    <p>Jobs Updates</p>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
